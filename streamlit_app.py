@@ -37,7 +37,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 #display table
 streamlit.dataframe(fruits_to_show)
 #new section to display
-streamlit.header("Fruityvice Fruit Advice!")
+#streamlit.header("Fruityvice Fruit Advice!")
 #import requests
 #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+"kiwi")
 
