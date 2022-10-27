@@ -57,6 +57,7 @@ my_data_rows = my_cur.fetchall()
 streamlit.header("FRUIT LOAD LIST CONTAINS")
 streamlit.dataframe(my_data_rows)
 
+streamlit.dataframe(fruits_to_show)
 streamlit.header("Fruityvice Fruit Advice!")
-#import requests
+import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ fruit_choice)
